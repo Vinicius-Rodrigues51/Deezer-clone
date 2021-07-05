@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/262b954398.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="//db.onlinewebfonts.com/c/9b06ae83a4412168ed194a8ed31218c2?family=Mabry+Pro+Medium" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DeezerProject</title>
+</head>
+<body>
+    
+    <!-- nav bar fixada -->
+    <nav class="topbar">
+        <div class="cell cell-logo">
+            <a href="#">
+                <div class="logo-deezer"></div>
+            </a>
+        </div><!--cell logo-->
+        <div class="cell cell-navigation hidden-phone">
+            <ul class="nav-main">
+                <li class="nav-main-item">
+                     <a class="nav-main-link" href="#">Baixar</a>
+                    </li>
+                <li class="nav-main-item">
+                    <a class="nav-main-link" href="#">Planos</a>
+                </li>
+            </ul>
+        </div><!--cell navigation-->
+        <div class="cell cell-profile hidden-phone">
+
+            <a class="btn-login btn-login-small btn-login-left" href="pages/login.html">
+                <span class="unlogged-btn-label">Login</span>
+            </a>
+            <a class="btn-login btn-login-small btn-login-right" href="pages/registro.html">
+                <span class="unlogged-btn-label">Registrar-se</span>
+            </a>
+        </div>
+    </nav>
+    <div class="bars">
+        <i class="fas disable fa-bars"></i>
+        <i class="fas active fa-times"></i>
+    </div>
+
+    <div class="mobile-menu mobile-menu-hidden">
+        <div>
+            <div class="nav-collapse">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Cadastrar-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Baixe o aplicativo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Explore os canais</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!--mobile-menu mobile-menu-hidden-->
+
+    <!-- section heading -->
+
+    <div id="page_premium">
+        <!-- sessao footer mobile -->
+        <section class="footer-mobile">
+            <div class="container">
+                <div class="cell cell-title">Deezer Premium</div>
+                <div class="cell cell-btn">
+                    <a class="footer-btn" href="#">
+                        <span class="label">EXPERIMENTE AGORA</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <section class="heading">
+        <div class="container">
+            <h1 class="heading-1">Deezer Premium</h1>
+            <h2 class="heading-2">3 meses grátis</h2>
+            <h3 class="heading-3">A partir daí, R$16,90/mês <br> Cancele a qualquer momento.* </h3>
+            <a href="#" class="btn-login">
+                <span class="label">EXPERIMENTE AGORA</span>
+            </a>
+            <p class="paragrafo">
+                Baixe sua música 
+                <br>
+                Ilimitado e on demand
+                <br>
+                Sem anúncios
+            </p>
+        </div>
+    </section>
+
+    <!-- sessão info -->
+
+    <section class="feature-info">
+        <div class="container">
+            <h2 class="heading-2">Por que escolher Deezer Premium?</h2>
+
+            <div class="feature-info-text">
+                <h3 class="heading-3">Ouça on demand</h3>
+                <p class="paragrafo">
+                    Ouça o que quiser, aproveite pulos ilimitados e crie sua própria coleção de músicas, podcasts e mais.
+                </p>
+            </div><!-- feature info txt-->
+
+            <div class="feature-info-text">
+                <h3 class="heading-3">Experiência sem publicidade</h3>
+                <p class="paragrafo">
+                    Reproduza todo o seu conteúdo de áudio favorito sem qualquer interrupção publicitária.
+                </p>
+            </div><!-- feature info txt-->
+
+            <div class="feature-info-text">
+                <h3 class="heading-3">Escute offline</h3>
+                <p class="paragrafo">
+                    Baixe suas músicas e podcasts e ouça sem conexão.
+                </p>
+            </div><!-- feature info txt-->
+
+            <div class="feature-info-text">
+                <h3 class="heading-3">Áudio de melhor qualidade</h3>
+                <p class="paragrafo">
+                    Aproveite a música com áudio de melhor qualidade para uma melhor experiência de escuta.
+                </p>
+            </div><!-- feature info txt-->
+
+            <div class="feature-info-text">
+                <h3 class="heading-3">Escuta em dispositivos diferentes</h3>
+                <p class="paragrafo">
+                    Alterne entre seu telefone, tablet, desktop e outros dispositivos suportados.
+                </p>
+            </div><!-- feature info txt-->
+
+            <div class="feature-info-text">
+                <h3 class="heading-3">Recursos personalizados</h3>
+                <p class="paragrafo">
+                    Identifique faixas ou cante junto com suas músicas favoritas com recursos integrados como SongCatcher e Letras.
+                </p>
+            </div><!-- feature info txt-->
+        </div><!--container-->
+    </section>
+
+    <!-- sessaão ad free -->
+
+    <section class="ad-free">
+        <div class="container">
+            <h2 class="heading-2">Escolha o que você ouve. Sem anúncios.</h2>
+            <p class="paragrafo">
+                Com<strong> milhões </strong>de faixas, podcasts, rádios e mais, existe algo para todo mundo.
+            </p>
+            <p class="paragrafo">
+                Ouça<strong> sem anúncios</strong>, <strong>pule</strong> o quanto quiser e crie sua <strong>própria coleção.</strong>
+            </p>
+        </div><!--container-->
+
+        <div>
+            <div class="player-visual"></div>
+        </div>
+    </section>
+
+    <!-- sessão offline -->
+
+    <section class="offline">
+        <div class="container">
+            <div>
+                <div class="offline-visual"></div>
+            </div>
+
+            <div class="offline-info">
+                <h2 class="heading-2">Ouça offline.</h2>
+                <p class="paragrafo">
+                    Economizando dados? Sem WiFi? Não tem problema. <strong>Baixe</strong> suas músicas e podcasts favoritos e ouça <strong>a qualquer momento, em qualquer lugar.</strong>
+                </p>
+            </div>
+        </div><!--container-->
+    </section>
+
+    <!-- sessão matchmaker -->
+
+    <section class="matchmaker">
+        <div class="container">
+            <h2 class="heading-2">
+                Conheça seu cupido musical.
+            </h2>
+            <p class="paragrafo">
+                Você ouve. Você ama. Nós aprendemos.
+            </p>
+            <p class="paragrafo">
+                Nosso aplicativo musical oferece para você as <strong>recomendações mais personalizadas</strong>, para que sua vida ganhe a trilha sonora que ela merece.
+            </p>
+            <a class="link-matchmaker" href="#">TODOS OS RECURSOS</a>
+
+            <div class="matchmaker-cover hidden-phone">
+                <div class="matchmaker-cover-col-small">
+                    <div>
+                        <div class="matchmaker-cover-2">
+                            <p class="matchmaker-name">descoberta</p>
+                        </div>
+                    </div>
+
+                    <p class="matchmaker-paragrafo">
+                        Nas segundas, explore faixas desconhecidas
+                    </p>
+
+                    <div>
+                        <div class="matchmaker-cover-3">
+                            <p class="matchmaker-name">novos lançamentos</p>
+                        </div>
+                    </div>
+
+                    <p class="matchmaker-paragrafo">
+                        Nas sextas, novas músicas de artistas que você ama
+                    </p>
+                </div><!--matchmaker-cover-col-small-->
+
+                <div class="matchmaker-cover-col-big">
+                    <div class="">
+                        <div class="matchmaker-cover-1">
+                            <p class="matchmaker-name name-big">flow</p>
+                        </div>
+                    </div>
+                    <p class="matchmaker-paragrafo">
+                        Um mix infinito de favoritos e faixas novas
+                    </p>
+                </div><!--matchmaker-cover-col-big-->
+
+                <div class="matchmaker-cover-col-small">
+                    <div>
+                        <div class="matchmaker-cover-4">
+                            <p class="matchmaker-name">relax</p>
+                        </div>
+                    </div>
+                    <p class="matchmaker-paragrafo">
+                        Nos domingos, escolhas novinhas para uma vibe relax
+                    </p>
+                </div>
+                
+            </div>
+
+            <div class="matchmaker-cover visible-phone">
+                <div class="matchmaker-cover-col-big">
+                    <div class="">
+                        <div class="matchmaker-cover-1">
+                            <p class="matchmaker-name name-big">flow</p>
+                        </div>
+                    </div>
+                    <p class="matchmaker-paragrafo">
+                        Um mix infinito de favoritos e faixas novas
+                    </p>
+                </div><!--matchmaker-cover-col-big-->
+
+                <div class="matchmaker-cover-col-small">
+                    <div class="matchmaker-cover-col-phone">
+                        <div>
+                            <div class="matchmaker-cover-3">
+                                <p class="matchmaker-name">novos lançamentos</p>
+                            </div>
+                        </div>
+    
+                        <p class="matchmaker-paragrafo">
+                            Nas sextas, novas músicas de artistas que você ama
+                        </p>
+                    </div>
+                    <div class="matchmaker-cover-col-phone">
+                        <div>
+                            <div class="matchmaker-cover-2">
+                                <p class="matchmaker-name">descoberta</p>
+                            </div>
+                        </div>
+    
+                        <p class="matchmaker-paragrafo">
+                            Nas segundas, explore faixas desconhecidas
+                        </p>
+                    </div>
+                    <div class="matchmaker-cover-col-phone">
+                        <div>
+                            <div class="matchmaker-cover-4">
+                                <p class="matchmaker-name">relax</p>
+                            </div>
+                        </div>
+                        <p class="matchmaker-paragrafo">
+                            Nos domingos, escolhas novinhas para uma vibe relax
+                        </p>
+                    </div>
+                </div><!--matchmaker-cover-col-small-->
+            </div><!--matchmaker-cover visible-phone-->
+    </section>
+
+    <!-- sessão favorite -->
+
+    <section class="favorite">
+        <div class="container">
+            <h2 class="heading-2">Sintonize seus anfitriões favoritos.</h2>
+            <p class="paragrafo">
+                Encontre aquilo que te agrada através do nosso <strong>catálogo que está sempre crescendo</strong> de conteúdos de áudio. Navegue por podcasts populares através da sua localidade ou verifique nossas recomendações diárias em nossa <strong>aba dedicada Podcasts.</strong>
+            </p>
+            <a class="link-matchmaker" href="#">LEIA MAIS</a>
+        </div><!--container-->
+
+        <div class="container">
+            <div class="favorite-info-visual">
+                <a href="#" class="favorite-link">
+                    <img class="favorite-square" src="Assets/264x264-1.jpg">
+                </a>
+                <h3 class="heading-3">Essenciais</h3>
+            </div><!--favorite-info-visual-->
+
+            <div class="favorite-info-visual">
+                <a href="#" class="favorite-link">
+                    <img class="favorite-square" src="Assets/264x264-2.jpg">
+                </a>
+                <h3 class="heading-3">Céu da Semana</h3>
+            </div><!--favorite-info-visual-->
+
+            <div class="favorite-info-visual">
+                <a href="#" class="favorite-link">
+                    <img class="favorite-square" src="Assets/264x264-3.jpg">
+                </a>
+                <h3 class="heading-3">Stereo Falante</h3>
+            </div><!--favorite-info-visual-->
+
+            <div class="favorite-info-visual">
+                <a href="#" class="favorite-link">
+                    <img class="favorite-square" src="Assets/264x264-4.jpg">
+                </a>
+                <h3 class="heading-3">Futebol Bandido</h3>
+            </div><!--favorite-info-visual-->
+
+            <div class="favorite-info-visual">
+                <a href="#" class="favorite-link">
+                    <img class="favorite-square" src="Assets/264x264-5.jpg">
+                </a>
+                <h3 class="heading-3">Um Milkshake Chamado Wanda</h3>
+            </div><!--favorite-info-visual-->
+
+            <div class="favorite-info-visual">
+                <a href="#" class="favorite-link">
+                    <img class="favorite-square" src="Assets/264x264-6.jpg">
+                </a>
+                <h3 class="heading-3">Mução</h3>
+            </div><!--favorite-info-visual-->
+        </div><!--container-->
+    </section>
+
+    <!-- sessão catehcer -->
+
+    <section class="catcher">
+        <div class="container">
+            <h2 class="heading-2">Nunca pare de descobrir.</h2>
+            <p class="paragrafo">
+                Identifique as músicas que estão tocando ao seu redor instantaneamente com o <strong>SongCatcher</strong>. Salve suas descobertas em seus favoritos ou adicione-as às suas playlists.
+            </p>
+            <a href="#" class="link-matchmaker">TODOS OS RECURSOS</a>
+        </div>
+
+        <div>
+            <div class="catcher-visual"></div>
+        </div>
+    </section>
+
+    <!--sessão lyrics-->
+
+    <section class="lyrics">
+        <div class="container">
+            <div class="lyrics-info">
+                <h2 class="heading-2">Entenda a palavra certa todas as vezes.</h2>
+                <p class="paragrafo">
+                    Cantar junto se torna mais fácil com as <strong>Letras</strong>. Apenas toque no microfone, mantenha a batida e compartilhe os versos que você ama.
+                </p>
+                <a href="#" class="link-matchmaker">TODOS OS RECURSOS</a>
+            </div>
+            <div>
+                <div class="lyrics-visual"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sessão devices -->
+
+    <section class="devices">
+        <div class="container">
+            <h2 class="heading-2">Sincronize sua vida.</h2>
+            <div class="devices-left">
+                <p class="paragrafo">
+                    Alterne entre <strong>telefones, tablets</strong> ou <strong>laptops</strong> ou sincronize com uma ampla gama de <strong>dispositivos caseiros</strong> e <strong>consoles de jogos</strong>.
+                </p>
+            </div>
+            <div class="devices-right">
+                <p class="paragrafo">
+                    Vai sair? Conecte facilmente o seu <strong>smartwatch</strong> ou <strong>de mídia do carro</strong> com sua conta para levar sua música com você.
+                </p>
+            </div>
+
+            <a href="#" class="link-matchmaker">TODOS OS DISPOSITIVOS SUPORTADOS</a>
+        </div><!--container-->
+
+        <div class="container">
+            <div class="devices-info-visual">
+                <a href="#">
+                    <div class="devices-square">
+                        <img src="Assets/sonos.jpg">
+                    </div>
+                </a>
+                <h3 class="heading-3">Sonos</h3>
+            </div><!--devices-info-visual-->
+
+            <div class="devices-info-visual">
+                <a href="#">
+                    <div class="devices-square">
+                        <img src="Assets/googlehome.jpg">
+                    </div>
+                </a>
+                <h3 class="heading-3">Google Home</h3>
+            </div><!--devices-info-visual-->
+
+            <div class="devices-info-visual">
+                <a href="#">
+                    <div class="devices-square">
+                        <img src="Assets/alexa.jpg">
+                    </div>
+                </a>
+                <h3 class="heading-3">Amazon Alexa</h3>
+            </div><!--devices-info-visual-->
+
+            <div class="devices-info-visual">
+                <a href="#">
+                    <div class="devices-square">
+                        <img src="Assets/bose.jpg">
+                    </div>
+                </a>
+                <h3 class="heading-3">Bose</h3>
+            </div><!--devices-info-visual-->
+
+            <div class="devices-info-visual">
+                <a href="#">
+                    <div class="devices-square">
+                        <img src="Assets/speakers.jpg">
+                    </div>
+                </a>
+                <h3 class="heading-3">Android TV</h3>
+            </div><!--devices-info-visual-->
+
+            <div class="devices-info-visual">
+                <a href="#">
+                    <div class="devices-square">
+                        <img src="Assets/tablet.jpg">
+                    </div>
+                </a>
+                <h3 class="heading-3">Saiba mais</h3>
+            </div><!--devices-info-visual-->
+        </div><!--container-->
+    </section>
+
+    <!-- sessão faq -->
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="heading-2">FAQ</h2>
+            <div class="faq-text">
+                <h3 class="heading-3">Quais são as vantagens de uma assinatura Deezer Premium?</h3>
+                <p class="paragrafo">
+                    Você pode escolher o que ouvir a qualquer momento, sem a interrupção dos anúncios, e pular quantas faixas quiser. Você também pode desfrutar da escuta offline no aplicativo Deezer.
+                </p>
+            </div><!--faq text-->
+
+            <div class="faq-text">
+                <h3 class="heading-3">O que significa escuta offline?</h3>
+                <p class="paragrafo">
+                    Escuta offline significa que você pode fazer download de todas as suas faixas e playlists favoritas, o que permite que você escute música sem wifi, nem conexão de rede.
+                </p>
+            </div><!--faq text-->
+
+            <div class="faq-text">
+                <h3 class="heading-3">Quantos dispositivos podem ser pareados com uma conta Deezer Premium?</h3>
+                <p class="paragrafo">
+                    Você pode conectar até 3 dispositivos diferentes ao seu aplicativo de música.
+                </p>
+            </div><!--faq text-->
+
+            <div class="faq-text">
+                <h3 class="heading-3">Qual é a diferença entre uma conta Deezer Premium e uma conta Deezer Family?</h3>
+                <p class="paragrafo">
+                    Com Deezer Premium, você obtém uma conta, e pode se conectar em até 3 dispositivos diferentes. Deezer Family permite que você crie até 6 membros diferentes em uma conta, de modo que todo mundo possa criar sua própria coleção e tenha suas próprias recomendações pessoais. Você também pode se conectar em até 13 dispositivos diferentes, e ouvir ao mesmo tempo.
+                </p>
+            </div><!--faq text-->
+
+            <div class="faq-text">
+                <h3 class="heading-3">Acabei de fazer upgrade para Deezer Premium, por que mimha conta ainda aparece como Deezer Free?</h3>
+                <p class="paragrafo">
+                    Se você acabou de fazer upgrade, a sua conta ainda pode aparecer como Deezer Free se o pagamento não tiver sido processado ainda, ou se você estiver se conectando em uma conta Deezer diferente. Confira se seus dados estão corretos.
+                </p>
+            </div><!--faq text-->
+        </div>
+    </section>
+
+    <!-- sessão heading -->
+
+    <section class="heading footer-heading">
+        <div class="container">
+            <h1 class="heading-1">Deezer Premium</h1>
+            <h2 class="heading-2">3 meses grátis</h2>
+            <h3 class="heading-3">A partir daí, R$16,90/mês <br> Cancele a qualquer momento.* </h3>
+            <a href="#" class="btn-login">
+                <span class="label">EXPERIMENTE AGORA</span>
+            </a>
+            <p class="paragrafo">
+                Baixe sua música 
+                <br>
+                Ilimitado e on demand
+                <br>
+                Sem anúncios
+            </p>
+        </div>
+    </section>
+
+    <!-- sessão legal -->
+
+    <section class="legal">
+        <div class="container">
+            <p class="paragrafo">
+                Essa oferta concede a você um teste gratuito de 3 meses para o serviço Deezer Premium. Ao final do seu período de teste, você será convertido automaticamente para uma assinatura Deezer Premium com preço total, de R$ 16,90 por mês; a menos que você cancele pelo menos 48 horas antes da data da renovação automática. Essa oferta não tem fidelidade. Você pode cancelar sua assinatura a qualquer momento. Esta oferta esta disponível apenas para usuários que nunca tenham se beneficiado de qualquer oferta Deezer de teste ou promocional e/ou que não sejam ou tenham sido assinantes pagos da Deezer. Esta oferta é válida apenas uma vez por usuário. Esta oferta não é cumulativa. A fim de resgatar esta oferta, você precisa inserir dados de pagamento válidos, fazer login ou criar uma conta e aceitar os termos e condições de uso do serviço Deezer (disponível em http://www.deezer.com/legal/cgu).
+            </p>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <div>
+        <footer class="footer footer-container">
+            <div class="cell cell-stores">
+                <a href="#">
+                    <img class="apple-store-badge" src="Assets/appStoreLogo.png">
+                </a>
+                <a href="#">
+                    <img class="play-store-badge" src="Assets/logoGoogleStore.png">
+                </a>
+            </div>
+
+            <div class="cell cell-navigation">
+                <div class="cell-navigation-inner">
+                    <ul class="nav-main">
+                        <li class="nav-main-item title">
+                            <p class="nav-main-link">Deezer</p>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Planos</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Recursos</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Dispositivos</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Ajuda</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Sobre nós</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Carreiras</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-main">
+                        <li class="nav-main-item title">
+                            <p class="nav-main-link">Explorar</p>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Todos os canais</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Mais ouvidas</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Lançamento mais popular</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Novos lançamentos</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Vida em casa</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-main">
+                        <li class="nav-main-item title">
+                            <p class="nav-main-link">Quem somos?</p>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Músicos e podcasters</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Desenvolvedores</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Imprensa</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav-main">
+                        <li class="nav-main-item title">
+                            <p class="nav-main-link">Legal</p>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Informações legais</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Termos e condições de uso</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Política de privacidade</a>
+                        </li>
+                        <li class="nav-main-item-2 visible">
+                            <a href="#" class="nav-main-link-2">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cell cell-bottom">
+                <a href="#" class="logo-container">
+                    <div class="logo-deezer"></div>
+                </a>
+                <ul class="social-list">
+                    <li class="social.list.item">
+                        <a href="#" class="social-list-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li class="social.list.item">
+                        <a href="#" class="social-list-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="social.list.item">
+                        <a href="#" class="social-list-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+
+                    <li class="social.list.item">
+                        <a href="#" class="social-list-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                        <div class="legal-list">
+                            <div class="legal-list-item">© 2021 Deezer</div>
+                            <div class="index-navbar-lang">
+                                <span class="lang-carret icon icon-chevron-down">
+                                    
+                                </span>
+                                <span class="lang-label">Português (BR)</span>
+                                <select class="lang-select" id="language_select">
+                                    <option value="cs">Čeština</option>
+                                    <option value="da">Dansk</option>
+                                    <option value="de">Deutsch</option>
+                                    <option value="en">English</option>
+                                    <option value="us">English (us)</option>
+                                    <option value="es">Español</option>
+                                    <option value="mx">Español (latam)</option>
+                                    <option value="fr">Français</option>
+                                    <option value="hr">Hrvatski</option>
+                                    <option value="id">Indonesia</option>
+                                    <option value="it">Italiano</option>
+                                    <option value="hu">Magyar</option>
+                                    <option value="ms">Melayu</option>
+                                    <option value="nl">Nederlands</option>
+                                    <option value="no">Norsk</option>
+                                    <option value="pl">Polski</option>
+                                    <option value="br" selected="">Português (br)</option>
+                                    <option value="pt">Português (pt)</option>
+                                    <option value="ro">Română</option>
+                                    <option value="sk">Slovenčina</option>
+                                    <option value="sl">Slovenščina</option>
+                                    <option value="sq">Shqip</option>
+                                    <option value="sr">Srpski</option>
+                                    <option value="fi">Suomi</option>
+                                    <option value="sv">Svenska</option>
+                                    <option value="tr">Türkçe</option>
+                                    <option value="bg">Български</option>
+                                    <option value="mk">Македонски</option>
+                                    <option value="ru">Pусский</option>
+                                    <option value="uk">Українська</option>
+                                    <option value="he">עִברִית</option>
+                                    <option value="ar">العربیة</option>
+                                    <option value="cn">中文</option>
+                                    <option value="ja">日本語</option>
+                                    <option value="ko">한국어</option>
+                                    <option value="th">ภาษาไทย</option>
+                                </select>
+                            </div>
+                        </div><!--legal-list-->
+                </div><!--legal-->
+            </div><!--cell botoom-->
+
+        </footer>
+    </div>
+
+</div><!--# page premium-->
+
+
+</body>
+</html>
